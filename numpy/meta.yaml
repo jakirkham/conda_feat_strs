@@ -17,11 +17,11 @@ requirements:
     - python
     - setuptools
     - cython
-    - blas * openblas
+    - blas 1.0.0 openblas
 
   run:
     - python
-    - blas * openblas
+    - blas 1.0.0 openblas
 
 about:
   home: https://www.numpy.org
